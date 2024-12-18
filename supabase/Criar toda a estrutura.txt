@@ -1,0 +1,15 @@
+Script SQL completo para resetar e recriar toda a estrutura do banco de dados com as políticas de segurança adequadas.
+
+Este script SQL completo irá:
+
+  1. Remover todas as políticas e tabelas existentes
+
+  2. Criar novas tabelas com estrutura otimizada
+
+  3. Implementar todas as políticas de segurança necessárias
+
+  4. Adicionar triggers para manutenção automática de timestamps
+
+  5. Criar índices para melhor performance
+
+Execute este script no SQL Editor do Supabase. Após a execução, você precisará criar um usuário admin inicial através do console do Supabase ou descomentando e ajustando as últimas linhas do script com o ID do usuário correto.

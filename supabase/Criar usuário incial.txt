@@ -1,0 +1,27 @@
+Para criar um usuário admin inicial através do console do Supabase, você precisará seguir dois passos:
+
+  1. Primeiro, criar o usuário através da autenticação (Authentication)
+
+  2. Depois, inserir o registro na tabela profiles com o papel de admin
+
+Passo a passo:
+
+  1. Criar o usuário:
+
+    . Acesse o projeto no Console do Supabase
+
+    . Vá para "Authentication" > "Users"
+
+    . Clique em "Add User"
+
+    . Preencha o email e senha do usuário admin
+
+    . Clique em "Create User"
+
+2. Definir como admin:
+
+    . Após criar o usuário, copie o UUID dele (será algo como d7bed83c-44a6-4555-9d76-c859bb1234ab)
+
+    . Vá para "SQL Editor"
+
+    . Execute o seguinte comando SQL (substitua o UUID e os dados conforme necessário):
